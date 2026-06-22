@@ -1,0 +1,25 @@
+# Build artifacts
+game
+game.exe
+racing_game.exe
+*.o
+*.obj
+*.out
+
+# Libraries
+*.dll
+*.so
+*.dylib
+openal32.dll
+sfml-*.dll
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Compiled binaries
+*.exe

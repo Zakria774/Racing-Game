@@ -1,0 +1,72 @@
+				========================================
+							Console-Based 2D Racing Game
+
+								Instructions.txt
+				========================================
+
+								PROJECT OVERVIEW:
+
+This is a console-based 2D racing game developed in C++ using Object-Oriented Programming concepts. 
+The player controls a car and competes against an AI-controlled car on a track with boundaries and obstacles.
+
+				========================================
+
+								HOW TO PLAY:
+
+-The game runs in the console.
+-You control the player car using keyboard commands:
+
+  w : Move Up
+  s  : Move Down
+  a  : Move Left
+  d  : Move Right
+
+- Type a command and press ENTER to move the car.
+
+				========================================
+
+								GAME RULES:
+
+- Stay inside the track boundaries (| |).
+- Avoid obstacles marked with 'X'.
+- Do not collide with the AI car.
+- The first car to reach the bottom of the track wins the race.
+
+			========================================
+
+								OUTPUT FILE:
+
+- A file named "gamedata.txt" is created.
+- It stores:
+  • Game initialization details
+  • Starting positions of cars
+  • Winner of the game
+
+				========================================
+
+									FEATURES:
+
+- Player-controlled movement
+- AI automatic movement
+- Collision detection
+- Obstacle handling
+- Boundary checking
+- Winner declaration
+- File handling (data saving)
+
+				========================================
+
+								END OF GAME:
+
+- The game ends when a car reaches the finish line.
+- Winner is displayed on screen and saved in the file.
+
+				========================================
+
+								NOTES:
+
+- Make sure all header (.h) files are included properly.
+- Run the program in a console that supports input/output.
+- Ensure no files are missing before compilation.
+
+				========================================
